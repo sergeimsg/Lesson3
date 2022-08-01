@@ -12,7 +12,7 @@ public class Task5Cycle {
             for (b = 10; b <= 99; b++) {
                 double a4 = a * 100 + b;
                 double b4 = b * 100 + a;
-               // System.out.println(a4 + "---" + b4);
+              
                 if (a4 % 99 != 0)
                 {
                  continue; }
